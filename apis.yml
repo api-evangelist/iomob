@@ -1,7 +1,28 @@
 aid: iomob
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iomob.png
 name: Iomob
-description: Iomob is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Iomob (The Internet of Mobility) was a Barcelona-based Mobility-as-a-Service
+  (MaaS) technology company founded in 2017. Its platform let cities, transport operators,
+  and corporations orchestrate multimodal, door-to-door journeys — combining public
+  transit, ride-hailing, taxis, micromobility, parking, and demand-responsive transport
+  — through unified journey-planning APIs, native iOS/Android SDKs, and customizable
+  white-label apps. Iomob''s MaaS platform and SDK were acquired by Busup in January
+  2025 to build a corporate mobility platform; the Iomob UK entity was dissolved in
+  September 2025 and the public website (iomob.net) is currently offline (Cloudflare
+  526 origin error). No public developer portal, OpenAPI, SDK packages, or GitHub
+  organization could be verified during enrichment — Iomob''s APIs and SDKs were delivered
+  under B2B/partner agreements.'
 url: https://raw.githubusercontent.com/api-evangelist/iomob/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,22 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: busup
+x-acquired-date: '2025-01-31'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobility
+- Mobility as a Service
+- MaaS
+- Transportation
+- Journey Planning
+- Micromobility
+- SDK
+- White Label
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iomob-domain-security.yml
 - type: Website
   url: https://iomob.net/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
