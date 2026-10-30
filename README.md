@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Iomob is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: techstars — https://iomob.net/
+Iomob (The Internet of Mobility) was a Barcelona-based Mobility-as-a-Service (MaaS) technology company founded in 2017. Its platform let cities, transport operators, and corporations orchestrate multimodal, door-to-door journeys — combining public transit, ride-hailing, taxis, micromobility, parking, and demand-responsive transport — through unified journey-planning APIs, native iOS/Android SDKs, and customizable white-label apps. Iomob's MaaS platform and SDK were acquired by Busup in January 2025 to build a corporate mobility platform; the Iomob UK entity was dissolved in September 2025 and the public website (iomob.net) is currently offline (Cloudflare 526 origin error). No public developer portal, OpenAPI, SDK packages, or GitHub organization could be verified during enrichment — Iomob's APIs and SDKs were delivered under B2B/partner agreements.
+
+**Areas:** Company · Mobility · Mobility As A Service · MaaS · Transportation · Journey Planning · Micromobility · SDK · White Label
+
+## Iomob on APIs.io (historical record)
+
+Everything profiled for Iomob is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iomob/](https://apis.io/providers/iomob/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Iomob Domain Security](https://apis.io/security/iomob/iomob-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://iomob.net/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Iomob: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/iomob/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
